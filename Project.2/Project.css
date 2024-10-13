@@ -1,0 +1,92 @@
+header {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: 30px;
+  font-weight: 100;
+  font-style: normal;
+  align-items: center;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  align-content: center;
+  background-color: antiquewhite;
+}
+.title {
+  grid-area: header;
+}
+.articles-1 {
+  grid-area: articles-1;
+}
+
+.articles-2 {
+  grid-area: articles-2;
+}
+
+.articles-3 {
+  grid-area: articles-3;
+}
+
+.articles-4 {
+  grid-area: articles-4;
+}
+
+.articles-5 {
+  grid-area: articles-5;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+article {
+  padding: 20px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.articles-3,
+.articles-5 {
+  border-right: 3px solid black;
+}
+.Aspects {
+  grid-area: nav;
+}
+.page {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "articles-1 articles-2 articles-3"
+    "articles-4 articles-5 articles-5";
+}
+.Aspects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  border: 3px solid black;
+  margin: 0;
+  padding: 30px;
+}
+.section-links {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Futura";
+  color: #666;
+}
+
+.section-links:hover {
+  color: #000;
+  text-decoration: underline;
+}

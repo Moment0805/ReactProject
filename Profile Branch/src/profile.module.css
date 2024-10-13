@@ -1,0 +1,79 @@
+.profile-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-pic-section {
+    flex: 1; 
+    text-align: center;
+  }
+  
+  .profile-pic-section i {
+    font-size: 100px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .profile-form-section {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .profile-form-section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .profile-form-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-form-section input,
+  .profile-form-section select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-form-section .button {
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .profile-form-section .button button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-form-section .button button:first-child {
+    background-color: #f44336; 
+    color: white;
+  }
+  
+  .profile-form-section .button button:last-child {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
